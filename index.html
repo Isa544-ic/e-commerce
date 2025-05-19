@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doceria Vegana</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Navegação -->
+    <nav>
+        <div class="menu">
+          <div class="logo">
+            <a href="index.html">Doceria Vegana</a>
+          </div>
+          <div class="hamburger" onclick="toggleMenu()">
+            ☰
+          </div>
+          <ul id="nav-links" class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre Nós</a></li>
+            <li class="dropdown">
+              <a href="#Produtos" class="dropbtn">Produtos</a>
+              <ul class="dropdown-content">
+                <li><a href="bolos.html">Bolo</a></li>
+                <li><a href="festa.html">Bolo para festa</a></li>
+                <li><a href="docinhos.html">Docinho</a></li>
+              </ul>
+            </li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="login.html">Sair</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Banner -->
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="Banner.png" alt="Banner da Doceria Vegana">
+            </div>
+        </div>
+    </div>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <h1>Bem-vindo à Doceria Vegana!</h1>
+        <p>Docês com sabores de qualidade nos melhores preços</p>
+    </main>
+
+    <!-- Galeria de Produtos -->
+    <div class="gallery-container3">
+        <div class="gallery-item">
+            <img src="bolo1.PNG" alt="Bolo vegano">
+            <a href="festa1.PNG"></a>
+        </div>
+
+        <div class="gallery-item">
+            <img src="festa1.PNG" alt="Bolo de festa vegano">
+            <a href="festa1.PNG"></a>
+        </div>
+
+        <div class="gallery-item">
+            <img src="docinho1.jfif" alt="Docinho vegano">
+            <a href="festa1.PNG"></a>
+        </div>
+
+        <div class="gallery-item">
+            <img src="festa2.PNG" alt="Outro bolo de festa vegano">
+            <a href="festa1.PNG"></a>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <p style="text-align: center;">SOMOS UMA DOCERIA DEDICADA EM TORNAR SUAS REFEIÇÕES MAIS DOCES E SABOROSAS!</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contato:</h4>
+                <p>Email: doceriavegana@empresa.com</p>
+                <p>Telefone: (11) 1234-5678</p>
+            </div>
+            <div class="footer-section">
+                <h4>Siga-nos:</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                    <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Empresa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <div class="menu-btn" onclick="mostrarMenu()">☰</div>
+ <!-- inicio ACESSIBILIDADE EM LIBRAS -->
+ <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+<!-- fim ACESSIBILIDADE EM LIBRAS -->
+</body>
+</html>

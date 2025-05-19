@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doceria Vegana</title>
+    <link rel="stylesheet" href="sobre.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="index.html">Doceria Vegana</a>
+      </div>
+      <div class="hamburger" onclick="toggleMenu()">
+        ☰
+      </div>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li class="dropdown">
+          <a href="#Produtos" class="dropbtn">Produtos</a>
+          <ul class="dropdown-content">
+            <li><a href="bolos.html">Bolo</a></li>
+            <li><a href="festa.html">Bolo para festa</a></li>
+            <li><a href="docinhos.html">Docinho</a></li>
+          </ul>
+        </li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="login.html">Sair</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="slider">
+    <div class="slides">
+        <div class="slide">
+            <img src="sobre1.PNG" alt="Banner da Doceria Vegana">
+        </div>
+    </div>
+</div>
+
+<div class="slider">
+  <div class="slides">
+      <div class="slide">
+          <img src="sobre2.PNG" alt="Banner da Doceria Vegana">
+      </div>
+  </div>
+</div>
+
+<div class="slider">
+  <div class="slides">
+      <div class="slide">
+          <img src="sobre3.PNG" alt="Banner da Doceria Vegana">
+      </div>
+  </div>
+</div>
+
+  <!-- inicio ACESSIBILIDADE EM LIBRAS -->
+ <div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+<!-- fim ACESSIBILIDADE EM LIBRAS -->
+
+</body>
